@@ -1,3 +1,21 @@
+:root {
+  --teal: #579bb1;
+  --beige: #e1d7c6;
+  --greige: #ece8dd;
+  --vanilla: #f8f4ea;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 body {
-  background-color: red;
+  background-color: var(--vanilla);
 }
