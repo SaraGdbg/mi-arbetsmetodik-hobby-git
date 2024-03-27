@@ -1,9 +1,9 @@
-import "/css/style.css";
+//import "/css/style.css";
 
-document.querySelector("#app").innerHTML = `
-  <div>
-   <h1>HÄJ</h1>
-  </div>
-`;
+// document.querySelector("#app").innerHTML = `
+//   <div>
+//    <h1>HÄJ</h1>
+//   </div>
+// `;
 
-setupCounter(document.querySelector("#counter"));
+// setupCounter(document.querySelector("#counter"));
