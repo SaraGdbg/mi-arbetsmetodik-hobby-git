@@ -52,7 +52,6 @@ body {
 
 .buttons {
   display: flex;
-
   text-align: center;
   justify-content: space-evenly;
   margin: 20px;
@@ -85,6 +84,7 @@ body {
   .for-the-love {
     font-family: freehand;
     font-size: 4em;
+    font-weight: 100;
     margin: 0;
   }
   .knitting {
@@ -93,5 +93,37 @@ body {
     font-weight: 200;
     margin: 0;
     text-transform: uppercase;
+  }
+}
+
+.contact-details {
+  align-content: center;
+  background-color: var(--beige);
+  color: var(--brown);
+  font-weight: bold;
+  height: 30vh;
+  text-align: center;
+  .join-us {
+    color: var(--teal);
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .name {
+    font-family: "Freehand";
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin: 40px 0 25px 0;
+  }
+  .location {
+    font-family: "Freehand";
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin: 5px 0;
+  }
+  .e-mail {
+    margin: 25px 0 45px 0;
   }
 }
