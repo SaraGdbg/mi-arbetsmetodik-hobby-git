@@ -56,7 +56,7 @@ body {
   justify-content: space-evenly;
   margin: 20px;
   button {
-    background-color: rgb(#ece8dd, 0.3);
+    background-color: rgb(#ece8dd, 0.4);
     border: none;
     border-radius: 8px;
     border-color: #f8f4ea;
@@ -75,7 +75,7 @@ body {
 .start-text {
   align-items: center;
   display: flex;
-  text-shadow: #2a1a10;
+  text-shadow: 2px 2px 8px rgba(#2a1a10, 0.3);
   flex-direction: column;
   left: 5%;
   position: absolute;
