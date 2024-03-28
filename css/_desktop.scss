@@ -116,6 +116,23 @@ body {
   }
 }
 
+.slideshow {
+  width: 30vw;
+  height: 60vh;
+  overflow: hidden;
+  outline: 5px solid #fff;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+}
+
 .contact-details {
   align-content: center;
   background-color: var(--beige);
