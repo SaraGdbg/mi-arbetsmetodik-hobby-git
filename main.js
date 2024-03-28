@@ -1,9 +1,8 @@
-//import "/css/style.css";
-
-// document.querySelector("#app").innerHTML = `
-//   <div>
-//    <h1>HÄJ</h1>
-//   </div>
-// `;
-
-// setupCounter(document.querySelector("#counter"));
+/**
+ * Redirects user to Ravelry pattern site
+ */
+const patternsBtn = document.getElementById("patternsBtn");
+patternsBtn.addEventListener("click", function () {
+  window.open("https://www.ravelry.com/patterns/knitting", "_blank");
+});
+console.log(patternsBtn);
