@@ -1,0 +1,60 @@
+:root {
+  --teal: #579bb1;
+  --beige: #e1d7c6;
+  --greige: #ece8dd;
+  --vanilla: #f8f4ea;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-img {
+  background-image: url("../public/assets/pexels-photo-5789582.jpeg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.freehand-regular {
+  font-family: "Freehand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.start-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 5%;
+  position: absolute;
+  top: 15%;
+
+  .for-the-love {
+    font-family: freehand;
+    font-size: 4em;
+    margin: 0;
+  }
+  .knitting {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6em;
+    font-weight: 200;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
