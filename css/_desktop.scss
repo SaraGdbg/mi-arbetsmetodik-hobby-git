@@ -59,7 +59,6 @@ body {
     background-color: rgb(#ece8dd, 0.4);
     border: none;
     border-radius: 8px;
-    border-color: #f8f4ea;
     color: var(--brown);
     font-weight: bold;
     letter-spacing: 2px;
@@ -93,6 +92,27 @@ body {
     font-weight: 200;
     margin: 0;
     text-transform: uppercase;
+  }
+  .knitting-text {
+    align-content: center;
+    background-color: rgb(#2a1a10, 0.4);
+    border-radius: 8px;
+    color: var(--vanilla);
+    height: 30vh;
+    margin: 40px 0 0 0;
+    padding: 20px;
+    text-align: center;
+    width: 30vw;
+    .grannies {
+      font-family: "Freehand";
+      letter-spacing: 1px;
+      font-size: 2.2rem;
+      padding: 30px 0;
+    }
+    p {
+      font-size: 1.2rem;
+      margin: 30px 0;
+    }
   }
 }
 
