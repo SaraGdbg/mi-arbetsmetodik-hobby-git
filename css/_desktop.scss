@@ -1,4 +1,5 @@
 :root {
+  --brown: #2a1a10;
   --teal: #579bb1;
   --beige: #e1d7c6;
   --greige: #ece8dd;
@@ -24,7 +25,7 @@ body {
 }
 
 .background-img {
-  background-image: url("../public/assets/pexels-photo-5789582.jpeg");
+  background-image: url("/assets/pexels-photo-5789582.jpeg");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,9 +38,45 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.quote {
+  align-content: center;
+  background-color: rgb(#579bb1, 0.3);
+  font-family: "Freehand";
+  font-size: 2rem;
+  height: 7vh;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.buttons {
+  display: flex;
+
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 20px;
+  button {
+    background-color: rgb(#ece8dd, 0.3);
+    border: none;
+    border-radius: 8px;
+    border-color: #f8f4ea;
+    color: var(--brown);
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  button:hover {
+    background-color: var(--teal);
+    color: var(--vanilla);
+  }
+}
+
 .start-text {
   align-items: center;
   display: flex;
+  text-shadow: #2a1a10;
   flex-direction: column;
   left: 5%;
   position: absolute;
