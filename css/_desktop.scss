@@ -76,7 +76,7 @@ body {
   display: flex;
   text-shadow: 2px 2px 8px rgba(#2a1a10, 0.3);
   flex-direction: column;
-  left: 5%;
+  left: 10%;
   position: absolute;
   top: 15%;
 
@@ -119,10 +119,11 @@ body {
 .slideshow {
   width: 30vw;
   height: 60vh;
+  max-width: 500px;
   overflow: hidden;
   outline: 5px solid #fff;
   position: absolute;
-  right: 10%;
+  right: 12%;
   top: 20%;
 
   img {
