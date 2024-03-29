@@ -33,3 +33,25 @@ function showNextImage() {
 
 images[currentIndex].style.display = "block";
 setInterval(showNextImage, 3000);
+
+/**
+ * Shows gallery page
+ */
+let galleryPage = document.getElementById("galleryPage");
+let galleryText = document.getElementById("galleryText");
+let startPage = document.getElementById("startPage");
+let galleryBtn = document.getElementById("galleryBtn");
+let returnBtn = document.getElementById("returnBtn");
+
+galleryBtn.addEventListener("click", function () {
+  galleryPage.classList.remove("hidden");
+  returnBtn.classList.remove("hidden");
+  startPage.classList.add("hidden");
+});
+
+returnBtn.addEventListener("click", function () {
+  galleryPage.classList.add("hidden");
+  galleryText.classList.add("hidden");
+  returnBtn.classList.add("hidden");
+  startPage.classList.remove("hidden");
+});
